@@ -44,22 +44,17 @@ src/
 data/
 ├── sample_raw_like/                  # Simulated raw metadata
 │   └── sample_existing_metadata.csv
-│
 ├── sample_filtered/                  # Filtered subset (relevant_wlw = 1)
 │   └── sample_metadata_keep.csv
-│
 ├── sample_enriched/                  # Engagement metrics
 │   └── sample_video_interaction.csv
-│
 ├── sample_ai_analysis/               # AI coding outputs (Vertex AI)
 │   └── sample_video_categorization.csv
-│
 ├── evaluation_sample/                # Evaluation workflow samples
 │   ├── sample_human_result_yy.csv
 │   ├── sample_human_result_zx.csv
 │   ├── sample_human_agreement_result.csv
 │   └── sample_ai_result.csv
-│
 ├── data_dictionary.md                # Variable definitions
 └── README.md
 
