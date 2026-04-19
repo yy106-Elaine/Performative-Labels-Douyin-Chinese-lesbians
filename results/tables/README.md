@@ -8,3 +8,4 @@
 | Caption Identity Category       | 0.87         | 0.88                     |
 
 This table reports Cohen’s kappa scores for both inter-human agreement and agreement between human consensus and AI outputs. The results indicate moderate to high reliability across variables, supporting the validity of the coding framework.
+This table is also available as a CSV file for download and reproducibility: `table1_kappa_summary.csv`.
