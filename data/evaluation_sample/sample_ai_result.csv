@@ -1,0 +1,6 @@
+sample_id,relevant_wlw,video_identity_present_visual,caption_identity_involved,caption_identity_category
+vid_001,1,1,0,-
+vid_002,1,1,0,-
+vid_003,1,0,0,-
+vid_004,1,1,1,2
+vid_005,1,1,1,-
