@@ -1,0 +1,9 @@
+sample_id,digg_count,comment_count,collect_count,share_count,status_note,source
+vid_001,28627,409,3047,11838,ok,detail_json
+vid_002,54299,2299,4046,7984,ok,detail_json
+vid_003,82820,8678,5161,10096,ok,detail_json
+vid_004,24524,2069,1226,2960,ok,detail_json
+vid_005,59836,672,4335,13899,ok,detail_json
+vid_006,322272,12582,4905,151076,ok,detail_json
+vid_007,17491,739,362,11107,ok,detail_json
+vid_008,3528,495,500,2510,ok,detail_json
