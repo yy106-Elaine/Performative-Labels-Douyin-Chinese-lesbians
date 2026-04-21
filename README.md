@@ -53,7 +53,31 @@ The pipeline follows a multi-stage workflow:
    Conduct human annotation and compute Cohen’s kappa for reliability evaluation.
 
 ---
+## 🛠️ Setup & Installation
 
+### Prerequisites
+- **Python 3.9+**
+- A **Google Cloud Project** with Vertex AI API enabled.
+
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/yy106-Elaine/performative-labels-digital-china.git](https://github.com/yy106-Elaine/performative-labels-digital-china.git)
+   cd performative-labels-digital-china
+   ```
+
+2. **Install dependencies:**
+  ```bash
+   pip install -r requirements.txt
+  ```
+
+3. **Credentials**
+   This project uses Vertex AI for multimodal analysis. Ensure you have authenticated your environment:
+   ```bash
+   gcloud auth application-default login
+   ```
+
+---
 ## How to Run
 
 This repository is organized as a step-by-step research pipeline.
@@ -61,24 +85,28 @@ This repository is organized as a step-by-step research pipeline.
 Example workflow:
 
 ```bash
+# 1. Data Collection & Filtering
 python src/01_search_scraper.py
 python src/02_extract_metadata.py
 python src/03_filter_keyword.py
 python src/04_filter_multimodal.py
+
+# 2. Analysis & Integration
 python src/05_collect_interactions.py
 python src/06_vertex_visual_analysis.py
 python src/07_caption_textual_coding.py
 python src/08_merge_coding_and_interactions.py
+
+# 3. Results & Validation
 python src/09_build_final_dataset.py
 python src/10_visualization.py
 python src/11_prepare_evaluation_files.py
 python src/12_compute_kappa_main.py
-python src/13_compute_kappa_caption_category.py
 
 Notes
 Sample data are provided in the data/ folder for demonstration and repository transparency.
-Some stages of the pipeline may require external credentials, platform access, or cloud-based AI services.
-File names reflect the logical order of the workflow, from data collection to validation and visualization.
+Steps 04 and 06 require Vertex AI API credentials.
+```
 
 ## Repository Structure
 
