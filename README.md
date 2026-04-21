@@ -18,7 +18,6 @@ The project builds a full data pipeline to:
 - Merge coding results with engagement data (likes, comments)  
 - Construct a final analytical dataset  
 - Evaluate coding reliability using human annotation and Cohen’s kappa  
-
 The analysis focuses on how labeling practices shift from traditional T/P/H categories toward more flexible and performative identity expressions.
 This project demonstrates how AI-assisted, multimodal pipelines can be used to scale qualitative cultural analysis into structured, reproducible computational research.
 ---
@@ -102,7 +101,7 @@ results/
 archive/
 └── repair_exclude_to_keep.py
 
-## Key Findings
+**## Key Findings**
 
 - Identity labeling appears in over 50% of videos, functioning as a routine communicative system.
 - Labeling practices have diversified beyond traditional T/P/H categories.
