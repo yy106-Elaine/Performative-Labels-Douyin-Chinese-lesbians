@@ -69,6 +69,7 @@ The pipeline follows a multi-stage workflow:
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
+   playwright install chromium
    ```
 
 3. **Credentials**
