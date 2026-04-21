@@ -3,7 +3,7 @@
 
 This project investigates how lesbian identity labeling practices (T/P/H culture) are performed, transformed, and negotiated on Chinese short-video platforms, particularly Douyin.
 
-It combines computational social media analysis with cultural studies approaches to examine how identity is signaled through captions, visual presentation, and platform interaction patterns.
+This project develops an AI-assisted, multimodal research pipeline to study digital identity formation under platform governance in China. It combines computational social media analysis with cultural studies approaches to examine how identity is signaled through captions, visual presentation, and platform interaction patterns.
 
 ---
 
@@ -137,9 +137,9 @@ archive/
 
 ## Key Findings
 
-Identity labeling appears in over 50% of videos, functioning as a routine communicative system.
-Labeling practices have diversified beyond traditional T/P/H categories.
-Videos with identity signals show higher engagement, suggesting that labeling can function as a form of algorithmic capital.
+- Identity labeling appears in over 50% of videos, functioning as a routine communicative system.
+- Labeling practices have diversified beyond traditional T/P/H categories.
+- Videos with identity signals show higher engagement, suggesting that labeling can function as a form of algorithmic capital.
 
 ---
 
